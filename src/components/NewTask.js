@@ -26,7 +26,6 @@ const NewTask = () => {
                value={text}
                autoFocus={true}
                placeholder="Enter new todo"
-            // onKeyUp={handleSubmitForm}
                onChange={(e) => setText(e.target.value)}
               />
               <div className="input-group-append">

@@ -28,6 +28,9 @@ code {
   width: 110%;
   
 }
+.filter{
+  justify-content: space-around;
+}
 /* li{
   display: flex;
   justify-content: space-between !important;

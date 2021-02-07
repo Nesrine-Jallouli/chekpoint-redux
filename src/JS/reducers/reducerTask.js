@@ -38,10 +38,7 @@ import {
           case EDIT_TASK:
           return {...state, list: state.list.map((el)=> el.id===action.payload.id?{...el, text:action.payload.text}: el)}
         
-          case TOGGLE:
-          return {
-                  ...state, filtered: !state.filtered
-              }
+
               default:
               return state
       }
